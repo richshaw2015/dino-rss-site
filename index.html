@@ -86,6 +86,33 @@
             max-width: 100%;
             width: 240px;
         }
+        #bmc-wbtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            color: white;
+            border-radius: 32px;
+            position: fixed;
+            right: 36px;
+            bottom: 36px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px;
+            z-index: 10;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s ease 0s;
+            transform: scale(1);
+        }
+        #bmc-wbtn img {
+            height: 40px;
+            width: 40px;
+            margin: 0;
+            padding: 0;
+        }
+        .second-bg-color {
+            background-color: #26a69a;
+        }
         .buymeacoffee {
             height: 60px;
             width: 231px;
@@ -304,6 +331,12 @@
         </div>
     </div>
 </main>
+
+<a href="https://www.buymeacoffee.com/dinorss" target="_blank" title="Buy Me A Coffee">
+    <div id="bmc-wbtn" class="second-bg-color">
+        <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/coffeecup.svg" alt="Buy Me A Coffee">
+    </div>
+</a>
 
 <div style="display: none">
     <svg width="0" height="0" style="position:absolute">
