@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dinosaur Rss 🦕</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dinosaur Rss 🦕 is a simple, efficient, open source RSS reader service.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="icon" href="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/logo.svg">
+    <link rel="apple-touch-icon-precomposed" href="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/logo.png">
+    <style>
+        #index-banner h1 {
+            margin-top: 16px;
+        }
+        .header {
+            color: #ee6e73;
+            font-weight: 300;
+        }
+        #index-banner h4 {
+            margin-bottom: 40px;
+            line-height: 44px;
+            color: rgba(0,0,0,0.7);
+        }
+        .light {
+            font-weight: 300;
+        }
+        #windows-button, #macos-button {
+            background-color: #ee6e73;
+            width: 260px;
+            height: 70px;
+            margin: 4px;
+            padding: 0;
+            line-height: 70px;
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+        }
+        .current-version-number {
+            color: rgba(0,0,0,0.53);
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 30px;
+            margin: 0 auto;
+        }
+        picture img {
+            width: 86%;
+            max-width: 1000px;
+        }
+        a {
+            color: unset;
+        }
+        #social-twitter svg {
+            color: rgba(29,161,242,1.00);
+        }
+        .icon-xl {
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .icon-xl svg {
+            vertical-align: top;
+            width: 100%;
+            height: 100%;
+            fill: currentColor;
+        }
+        .d-md-inline {
+            display: inline !important;
+        }
+        .promo-caption {
+            font-size: 1.7rem;
+            font-weight: 500;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+        .donate-info {
+            display: flex;
+            align-items: center;
+        }
+        .podlove {
+            max-width: 100%;
+            width: 240px;
+        }
+        .buymeacoffee {
+            height: 60px;
+            width: 231px;
+            max-width: 100%;
+            border-radius: 12px;
+            margin-right: 6px;
+        }
+        .divider {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .footer-copyright {
+            overflow: hidden;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .patreon-footer-ad {
+            display: inline-block;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        .patreon-footer-ad img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+    <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+        <div class="row center">
+            <div class="col s12 m10 offset-m1">
+                <h1 class="header">Dinosaur Rss 🦕</h1>
+            </div>
+            <div class="col s12">
+                <h4 class="light">A simple, efficient, open source RSS reader service</h4>
+            </div>
+        </div>
+        <div class="row center">
+            <a href="#" id="windows-button" target="_blank" class="btn-large waves-effect waves-light">
+                <span class="icon-xl">
+                  <svg>
+                    <use xlink:href="#icon-windows"></use>
+                  </svg>
+                </span>
+                <span class="d-md-inline">Windows</span>
+            </a>
+
+            <a href="#" id="macos-button" target="_blank" class="btn-large waves-effect waves-light">
+                <span class="icon-xl">
+                  <svg>
+                    <use xlink:href="#icon-mac"></use>
+                  </svg>
+                </span>
+                <span class="d-md-inline">macOS</span>
+            </a>
+        </div>
+        <div class="row center"><a class="current-version-number" href="https://github.com/Dogfalo/materialize">Beta: 0.2.9</a></div>
+        <br>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row center">
+            <div class="col s12">
+                <picture>
+                    <img src="screenshot.jpg" alt="Screenshot">
+                </picture>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="container">
+        <div class="row center"><h3>Key Features</h3></div>
+
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m10 offset-m1">
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="center promo">
+                                <p class="promo-caption">🚀 Simple and Efficient</p>
+                                <p class="light center">
+                                    By using Client-Server architecture, feeds are synchronized intelligently on the server, so it's energy efficient for your device.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                            <div class="center promo">
+                                <p class="promo-caption">💻 Cross Platform</p>
+                                <p class="light center">
+                                    Tested on both MacOS 10.15 and Windows 10, Linux support is on the way.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                            <div class="center promo">
+                                <p class="promo-caption">🎤 Podcast Optimized</p>
+                                <p class="light center">Integrated with <code>@Podlove Player</code> for the specific needs of podcasters.</p>
+                                <!--
+                                <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/podplayer/podlove.jpg" class="podlove" alt="podlove player" />
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m10 offset-m1">
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="center promo">
+                                <p class="promo-caption">💡 Code Highlight</p>
+                                <p class="light center">Integrated with <code>@Prismjs</code> and  <code>@highlight.js</code></p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                            <div class="center promo">
+                                <p class="promo-caption">⌨️ Keyboard Shortcuts</p>
+                                <p class="light center">VimLike Shortcut support</p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                            <div class="center promo">
+                                <p class="promo-caption">🆓 Free for 100 feeds</p>
+                                <p class="light center donate-info">
+                                    Just buy me a coffee to unlock the 100 feeds limit
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+    <div class="container">
+        <div class="row" style="margin-bottom: 0;">
+            <div class="col s12 m10 offset-m1">
+                <div class="row">
+                    <div class="col l4 s12">
+                        <h5>Help Dinosaur Rss Grow</h5>
+                        <p class="grey-text text-darken-2">
+                            Help us by buy me a coffee. Any amount would help and is greatly appreciated.</p>
+                        <a href="https://www.buymeacoffee.com/dinorss" target="_blank">
+                            <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/buymeacoffee.png" class="buymeacoffee" alt="Buy Me A Coffee" />
+                        </a>
+
+                    </div>
+                    <div class="col l4 s12">
+                        <h5>Join the Discussion</h5>
+                        <p class="grey-text text-darken-2">
+                            Discuss new features, future goals, general problems or questions, or anything else you can think of.</p>
+                        <a class="btn waves-effect waves-light red lighten-2" target="_blank" href="https://github.com/richshaw2015/dino-rss-electron/discussions">Discuss</a>
+                    </div>
+                    <div class="col l4 s12" style="overflow: hidden;">
+                        <h5>Connect</h5>
+                        <p>
+                            <a href="https://twitter.com/dino_rss" target="_blank" id="social-twitter">
+                                <span class="icon-xl">
+                                  <svg>
+                                    <use xlink:href="#icon-twitter"></use>
+                                  </svg>
+                                </span>
+                                <span class="d-md-inline grey-text text-darken-2">@dino_rss</span>
+                            </a>
+                        </p>
+
+                        <p>
+                            <a href="https://github.com/richshaw2015/dino-rss-electron" target="_blank" id="social-github">
+                                <span class="icon-xl">
+                                  <svg>
+                                    <use xlink:href="#icon-github"></use>
+                                  </svg>
+                                </span>
+                                <span class="d-md-inline grey-text text-darken-2">@richshaw2015/dino-rss-electron</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12">
+                        <h5>Sponsors</h5>
+                    </div>
+                    <div class="col s12">
+                        <div class="patreon-footer-ad">
+                            <a href="https://www.jetbrains.com/?from=dinorss" alt="JetBrains" target="_blank" rel="noopener">
+                                <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/jetbrains.svg" alt="JetBrains">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    <span class="grey-text text-darken-1">
+                        © 2020-2021 Dinosaur Rss, All rights reserved.
+                    </span>
+
+                    <a class="grey-text text-darken-1 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE" target="_blank">MIT License</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div style="display: none">
+    <svg width="0" height="0" style="position:absolute">
+        <symbol fill="currentColor" viewBox="0 0 25 24" id="icon-github" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.255 1C6.035 1 1 6.035 1 12.255c0 4.976 3.258 9.181 7.7 10.662.593.119.77-.237.77-.533V20.49c-3.139.651-3.79-1.54-3.79-1.54-.533-1.244-1.244-1.6-1.244-1.6-1.007-.71.059-.651.059-.651 1.125.059 1.718 1.184 1.718 1.184 1.007 1.718 2.665 1.244 3.258.948.118-.71.414-1.244.71-1.54-2.487-.296-5.153-1.244-5.153-5.568 0-1.244.415-2.192 1.185-3.021-.119-.296-.474-1.422.118-2.962 0 0 .948-.296 3.08 1.185.89-.237 1.837-.415 2.844-.415.948 0 1.955.118 2.784.415 2.133-1.422 3.08-1.185 3.08-1.185.593 1.54.237 2.725.119 2.962a4.354 4.354 0 011.184 3.02c0 4.325-2.665 5.273-5.153 5.569.415.355.77 1.007.77 2.073v3.08c0 .297.237.652.77.534 4.443-1.54 7.7-5.746 7.7-10.722C23.51 6.035 18.476 1 12.256 1z"/>
+        </symbol>
+        <symbol fill="currentColor" viewBox="0 0 24 24" id="icon-linux" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.492 9.966c-1.1 0-1.992.911-1.992 2.034 0 1.123.892 2.033 1.992 2.033s1.992-.91 1.992-2.033c0-1.123-.892-2.034-1.992-2.034zm14.223 9.24c-.952.562-1.28 1.805-.729 2.777a1.969 1.969 0 002.72.744c.953-.561 1.28-1.805.73-2.777a1.971 1.971 0 00-2.721-.744zM7.819 12c0-2.008.978-3.783 2.474-4.858l-1.456-2.49a8.848 8.848 0 00-3.579 5.133A2.877 2.877 0 016.29 12c0 .893-.403 1.69-1.032 2.215a8.847 8.847 0 003.579 5.134l1.456-2.49A5.962 5.962 0 017.82 12zm5.819-5.939c3.04 0 5.533 2.379 5.795 5.412l2.84-.042A8.882 8.882 0 0019.7 5.703a2.744 2.744 0 01-2.389-.198 2.847 2.847 0 01-1.362-2.016 8.534 8.534 0 00-2.312-.32 8.48 8.48 0 00-3.836.914l1.385 2.531a5.7 5.7 0 012.45-.553zm0 11.877a5.7 5.7 0 01-2.451-.552l-1.384 2.53a8.473 8.473 0 006.147.594 2.85 2.85 0 011.362-2.015 2.744 2.744 0 012.389-.199 8.884 8.884 0 002.571-5.727l-2.84-.042c-.26 3.033-2.754 5.411-5.794 5.411zm4.077-13.145a1.97 1.97 0 002.72-.743c.55-.973.224-2.215-.729-2.777a1.97 1.97 0 00-2.72.744c-.55.972-.223 2.214.729 2.776z"/>
+        </symbol>
+        <symbol fill="currentColor" viewBox="0 0 24 24" id="icon-mac" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.91 17.14c-.517 1.145-.765 1.657-1.43 2.668-.928 1.414-2.236 3.173-3.858 3.189-1.441.013-1.81-.939-3.767-.928-1.955.011-2.363.944-3.804.93-1.622-.014-2.862-1.603-3.79-3.016-2.597-3.951-2.868-8.589-1.267-11.054 1.138-1.752 2.933-2.777 4.621-2.777 1.72 0 2.8.942 4.22.942 1.379 0 2.218-.943 4.205-.943 1.502 0 3.094.817 4.228 2.23-3.716 2.037-3.112 7.34.642 8.759zM15.533 4.572c.722-.927 1.27-2.234 1.072-3.572-1.18.082-2.56.832-3.365 1.81-.73.887-1.334 2.204-1.099 3.484 1.287.04 2.62-.73 3.392-1.722z"/>
+        </symbol>
+        <symbol fill="currentColor" viewBox="0 0 24 24" id="icon-windows" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23 11.51V1L10.754 2.761v8.75H23zM9.892 2.885L1 4.164v7.346h8.892V2.885zM1 12.361V19.8l8.892 1.293v-8.732H1zm9.754 8.858L23 23V12.36H10.754v8.859z"/>
+        </symbol>
+        <symbol viewBox="0 0 24 24" fill="currentColor" id="icon-twitter2" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.3 21.9c-2.6 0-5.3-.7-7.7-2.1-.4-.2-.6-.7-.5-1.1.1-.4.5-.7.9-.7 1.7.1 3.4-.3 4.9-1-3.7-2.3-4.7-5.5-4.8-8-.1-2.9.9-5.3 1-5.4.1-.3.4-.6.8-.6s.7.1.9.4C4.7 4.7 6 5.8 7.4 6.5c1.1.6 2.4.9 3.6 1 0-1.1.3-2.2.9-3.1.6-.9 1.5-1.6 2.6-2 1.1-.4 2.2-.5 3.3-.2.9.2 1.7.6 2.3 1.2.8-.3 1.6-.7 2.3-1.2.3-.2.8-.2 1.1 0s.5.7.4 1.1c-.3 1.4-1 2.7-2 3.8v.5c0 5.5-2.4 10.1-6.7 12.5-2 1.2-4.4 1.8-6.9 1.8zM5 19.5c3.3.8 6.6.4 9.4-1.2 3.6-2.1 5.7-6.1 5.7-10.8 0-.2 0-.4-.1-.6-.1-.3 0-.7.3-.9.2-.2.4-.5.6-.7-.2.1-.5.2-.7.2-.4.1-.8 0-1-.3-.5-.5-1.1-.9-1.8-1.1-.7-.2-1.4-.1-2.1.1-.7.3-1.2.7-1.6 1.3-.4.6-.6 1.3-.6 2v1c0 .5-.4 1-1 1-1.9.1-3.8-.4-5.5-1.2C5.3 7.7 4.3 6.9 3.4 6c-.6 2.6-.8 7.5 5 10.1.3.1.6.4.6.8s-.1.7-.4.9c-1.2.8-2.4 1.4-3.6 1.7z"/>
+        </symbol>
+
+        <symbol viewBox="0 0 24 24" fill="currentColor" id="icon-twitter" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+        </symbol>
+    </svg>
+</div>
+</body>
+</html>
