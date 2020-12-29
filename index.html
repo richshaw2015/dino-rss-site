@@ -2,149 +2,16 @@
 <html lang="en">
 <head>
     <title>Dinosaur Rss</title>
-    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" >
-    <link rel="dns-prefetch" href="https://raw.githubusercontent.com" >
+
+    <base href="https://dino-rss-site-1300083421.file.myqcloud.com/" target="_blank">
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Dinosaur Rss 🦕 is a simple, efficient, open source RSS reader service.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="icon" href="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/logo.svg">
-    <link rel="apple-touch-icon-precomposed" href="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/logo.png">
-    <style>
-        #index-banner h1 {
-            margin-top: 16px;
-        }
-        .header {
-            color: #ee6e73;
-            font-weight: 300;
-        }
-        #index-banner h4 {
-            margin-bottom: 40px;
-            line-height: 44px;
-            color: rgba(0,0,0,0.7);
-        }
-        .light {
-            font-weight: 300;
-        }
-        #windows-button, #macos-button {
-            background-color: #ee6e73;
-            width: 260px;
-            height: 70px;
-            margin: 4px;
-            padding: 0;
-            line-height: 70px;
-            font-size: 18px;
-            font-weight: 400;
-            color: white;
-        }
-        .current-version-number {
-            color: rgba(0,0,0,0.53);
-        }
-        .container {
-            width: 100%;
-            max-width: 1200px;
-            padding: 0 30px;
-            margin: 0 auto;
-        }
-        picture img {
-            width: 86%;
-            max-width: 1000px;
-        }
-        a {
-            color: unset;
-        }
-        #social-twitter svg {
-            color: rgba(29,161,242,1.00);
-        }
-        .icon-xl {
-            width: 32px;
-            height: 32px;
-            display: inline-block;
-            vertical-align: middle;
-        }
-        .icon-xl svg {
-            vertical-align: top;
-            width: 100%;
-            height: 100%;
-            fill: currentColor;
-        }
-        .d-md-inline {
-            display: inline !important;
-        }
-        .promo-caption {
-            font-size: 1.7rem;
-            font-weight: 500;
-            margin-top: 5px;
-            margin-bottom: 0;
-        }
-        .donate-info {
-            display: flex;
-            align-items: center;
-        }
-        .podlove {
-            max-width: 100%;
-            width: 240px;
-        }
-        #bmc-wbtn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 64px;
-            height: 64px;
-            color: white;
-            border-radius: 32px;
-            position: fixed;
-            right: 36px;
-            bottom: 36px;
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 8px;
-            z-index: 10;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.2s ease 0s;
-            transform: scale(1);
-        }
-        #bmc-wbtn img {
-            height: 40px;
-            width: 40px;
-            margin: 0;
-            padding: 0;
-        }
-        .second-bg-color {
-            background-color: #26a69a;
-        }
-        .buymeacoffee {
-            height: 60px;
-            width: 231px;
-            max-width: 100%;
-            border-radius: 12px;
-            margin-right: 6px;
-        }
-        .divider {
-            width: 80%;
-            margin: 0 auto;
-        }
-        .footer-copyright {
-            overflow: hidden;
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 10px 0;
-        }
-        .patreon-footer-ad {
-            display: inline-block;
-            float: left;
-            margin-right: 20px;
-            margin-bottom: 20px;
-            width: 100px;
-            height: 100px;
-        }
-        .patreon-footer-ad img {
-            max-width: 100%;
-            max-height: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo.svg">
+    <link rel="apple-touch-icon-precomposed" href="img/logo.png">
 </head>
 
 <body>
@@ -187,7 +54,7 @@
         <div class="row center">
             <div class="col s12">
                 <picture>
-                    <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-img/master/site/screenshot.jpg" alt="Screenshot">
+                    <img src="img/screenshot.jpg" alt="Screenshot">
                 </picture>
             </div>
         </div>
@@ -223,9 +90,6 @@
                             <div class="center promo">
                                 <p class="promo-caption">🎤 Podcast Optimized</p>
                                 <p class="light center">Integrated with <code>@Podlove Player</code> for the specific needs of podcasters.</p>
-                                <!--
-                                <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/podplayer/podlove.jpg" class="podlove" alt="podlove player" />
-                                -->
                             </div>
                         </div>
                     </div>
@@ -271,7 +135,7 @@
                         <p class="grey-text text-darken-2">
                             Help us by buy me a coffee. Any amount would help and is greatly appreciated.</p>
                         <a href="https://www.buymeacoffee.com/dinorss" target="_blank">
-                            <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/buymeacoffee.png" class="buymeacoffee" alt="Buy Me A Coffee" />
+                            <img src="img/buymeacoffee.png" class="buymeacoffee" alt="Buy Me A Coffee" />
                         </a>
 
                     </div>
@@ -314,7 +178,7 @@
                     <div class="col s12">
                         <div class="patreon-footer-ad">
                             <a href="https://www.jetbrains.com/?from=dinorss" alt="JetBrains" target="_blank" rel="noopener">
-                                <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/jetbrains.svg" alt="JetBrains">
+                                <img src="img/jetbrains.svg" alt="JetBrains">
                             </a>
                         </div>
                     </div>
@@ -334,7 +198,7 @@
 
 <a href="https://www.buymeacoffee.com/dinorss" target="_blank" title="Buy Me A Coffee">
     <div id="bmc-wbtn" class="second-bg-color">
-        <img src="https://raw.githubusercontent.com/richshaw2015/dino-rss-electron/master/public/icon/coffeecup.svg" alt="Buy Me A Coffee">
+        <img src="img/coffeecup.svg" alt="Buy Me A Coffee">
     </div>
 </a>
 
