@@ -168,3 +168,10 @@ a {
 .indicator-item {
     background-color: #ee6e7330 !important;
 }
+
+
+.author {
+    display: block;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.6);
+}
