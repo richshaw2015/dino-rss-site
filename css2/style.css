@@ -151,6 +151,7 @@ a {
 .icon-svg-outside {
     vertical-align: text-bottom !important;
     margin-right: 10px;
+    margin-bottom: 3px;
 }
 
 .carousel {
