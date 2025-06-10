@@ -171,7 +171,21 @@ a {
 
 
 .author {
-    display: block;
+    display: inline-block;
     text-align: right;
+    margin-left: 4px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-wrapper {
+    text-align: right;
 }
